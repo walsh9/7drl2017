@@ -7,10 +7,15 @@ canvas {
 }
 .wrapper, .map {
   width: 512px;
-  height: 632px;
   margin: auto;
   position: relative;
   background: black;
+}
+.map {
+  height: 512px;
+}
+.wrapper {
+  height: 640px;
 }
 canvas.main {
   position: absolute;
