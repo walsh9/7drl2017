@@ -1,0 +1,22 @@
+body {
+  background-color: #222;
+}
+canvas {
+  display: block; 
+  margin: auto;
+}
+.wrapper, .map {
+  width: 512px;
+  height: 512px;
+  margin: auto;
+  position: relative;
+  background: black;
+}
+canvas.main {
+  position: absolute;
+  top: 0;
+  left: 0; 
+}
+canvas.over {
+  z-index: 1;
+}

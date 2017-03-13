@@ -1,0 +1,32 @@
+TERRAIN: . = sand
+TERRAIN: w = water
+
+NAME: beach0
+WEIGHT: 30
+MAP
+........wwwwwwwwwwww
+........wwwwwwwwwwww
+.........wwwwwwwwwww
+.........wwwwwwwwwww
+..........wwwwwwwwww
+...........wwwwwwwww
+...........wwwwwwwww
+...........wwwwwwwww
+..........wwwwwwwwww
+..........wwwwwwwwww
+..........wwwwwwwwww
+..........wwwwwwwwww
+..........wwwwwwwwww
+..........wwwwwwwwww
+.........wwwwwwwwwww
+.........wwwwwwwwwww
+.........wwwwwwwwwww
+.........wwwwwwwwwww
+.........wwwwwwwwwww
+..........wwwwwwwwww
+..........wwwwwwwwww
+...........wwwwwwwww
+..........wwwwwwwwww
+..........wwwwwwwwww
+.........wwwwwwwwwww
+ENDMAP

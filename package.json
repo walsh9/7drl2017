@@ -1,0 +1,19 @@
+{
+  "name": "7drl2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "Matt Walsh <walsh9@gmail.com> (https://walsh9.net)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^2.2.1"
+  }
+}

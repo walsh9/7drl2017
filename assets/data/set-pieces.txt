@@ -1,0 +1,52 @@
+TERRAIN: M = giantMelon
+TERRAIN: P = giantPeach
+TERRAIN: W = giantWatermelon
+TERRAIN: . = road
+TERRAIN: p = park
+TERRAIN: b = shortBldg
+TERRAIN: B = tallBldg
+TERRAIN: T = powerline
+
+NAME: giantMelon
+WEIGHT: 30
+MAP
+.....
+.ppp.
+.pMp.
+.ppp.
+.....
+ENDMAP
+
+NAME: giantPeach
+WEIGHT: 30
+MAP
+.....
+.ppp.
+.pPp.
+.ppp.
+.....
+ENDMAP
+
+NAME: giantWatermelon
+WEIGHT: 30
+MAP
+.....
+.ppp.
+.pWp.
+.ppp.
+.....
+ENDMAP
+
+NAME: BGDock
+WEIGHT: 30
+MAP
+.........
+.TTTTTTT.
+.BBBBBBB.
+.BbbbbbB.
+.Bb....B.
+.Bb....B.
+.Bb....B.
+.........
+.........
+ENDMAP

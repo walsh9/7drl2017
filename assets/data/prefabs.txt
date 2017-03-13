@@ -1,0 +1,263 @@
+TERRAIN: . = road
+TERRAIN: h = houses
+TERRAIN: b = shortBldg
+TERRAIN: B = tallBldg
+TERRAIN: C = chemBldg
+TERRAIN: p = park
+TERRAIN: T = powerline
+TERRAIN: w = water
+
+NAME: houseBlock0
+WEIGHT: 30
+MAP
+.....
+.hhh.
+.hph.
+.hhh.
+.....
+ENDMAP
+
+NAME: houseBlock1
+WEIGHT: 30
+MAP
+.....
+.hhh.
+.hph.
+.hhh.
+.hph.
+.hhh.
+.hph.
+.hhh.
+.....
+ENDMAP
+
+NAME: houseBlock2
+WEIGHT: 30
+MAP
+.........
+.hhhhhhh.
+.hphphph.
+.hhhhhhh.
+.........
+ENDMAP
+
+
+NAME: tallBlock0
+WEIGHT: 30
+MAP
+.....
+.BBB.
+.BpB.
+.BBB.
+.....
+ENDMAP
+
+NAME: tallBlock1
+WEIGHT: 30
+MAP
+.....
+.BBB.
+.BpB.
+.BBB.
+.BpB.
+.BBB.
+.BpB.
+.BBB.
+.....
+ENDMAP
+
+NAME: tallBlock2
+WEIGHT: 30
+MAP
+.........
+.BBBBBBB.
+.BpBpBpB.
+.BBBBBBB.
+.........
+ENDMAP
+
+NAME: shortBlock
+WEIGHT: 30
+MAP
+.....
+.bbb.
+.bpb.
+.bbb.
+.....
+ENDMAP
+
+NAME: shortBlock1
+WEIGHT: 30
+MAP
+.........
+.bbbbbbb.
+.bpbpbpb.
+.bbbbbbb.
+.........
+ENDMAP
+
+NAME: shortBlock2
+WEIGHT: 30
+MAP
+.....
+.bbb.
+.bpb.
+.bbb.
+.bpb.
+.bbb.
+.bpb.
+.bbb.
+.....
+ENDMAP
+
+NAME: mixedBlock0
+WEIGHT: 30
+MAP
+.....
+.BbB.
+.bpb.
+.BbB.
+.bpb.
+.BbB.
+.bpb.
+.BbB.
+.....
+ENDMAP
+
+NAME: mixedBlock1
+WEIGHT: 30
+MAP
+.....
+.BBB.
+.bpb.
+.bbb.
+.bpb.
+.bbb.
+.bpb.
+.BBB.
+.....
+ENDMAP
+
+NAME: mixedBlock2
+WEIGHT: 30
+MAP
+.........
+.BbbBbbB.
+.bpbpbpb.
+.BbbBbbB.
+.........
+ENDMAP
+
+NAME: chemBlock0
+WEIGHT: 30
+MAP
+.....
+.CCC.
+.C.C.
+.CCC.
+.....
+ENDMAP
+
+NAME: chemBlock1
+WEIGHT: 30
+MAP
+.........
+.CCCCCCC.
+.CTCTCTC.
+.CCCCCCC.
+.........
+ENDMAP
+
+NAME: chemBlock2
+WEIGHT: 30
+MAP
+.....
+.CCC.
+.CTC.
+.CCC.
+.CTC.
+.CCC.
+.CTC.
+.CCC.
+.....
+ENDMAP
+
+NAME: powerBlock
+WEIGHT: 10
+MAP
+.....
+.TTT.
+.TCT.
+.TTT.
+.....
+ENDMAP
+
+NAME: highVoltage
+WEIGHT: 5
+MAP
+.........
+.TTTTTTT.
+.TCC.CCT.
+.TCC.CCT.
+.T.....T.
+.TCC.CCT.
+.TCC.CCT.
+.TTTTTTT.
+.........
+ENDMAP
+
+NAME: loopPark
+WEIGHT: 5
+MAP
+.........
+.ppp.ppp.
+.ppp.ppp.
+.pp...pp.
+.pp.w.pp.
+.pp...pp.
+.ppp.ppp.
+.ppp.ppp.
+.........
+ENDMAP
+
+NAME: neighborhood
+WEIGHT: 10
+MAP
+.........
+.BBB.ppp.
+.....ppp.
+.hhh.ppp.
+.........
+.hhh.hhh.
+.........
+.hhh.hhh.
+.........
+ENDMAP
+
+NAME: bigPark
+WEIGHT: 10
+MAP
+.........
+.BpppppB.
+.BpppppB.
+.BpwwwpB.
+...www...
+.BpwwwpB.
+.BpppppB.
+.BpppppB.
+.........
+ENDMAP
+
+NAME: staggeredStreet
+WEIGHT: 10
+MAP
+.........
+.BBB.bbb.
+.BBB.bbb.
+.....bbb.
+.bbb.bbb.
+.bbb.....
+.bbb.BBB.
+.bbb.BBB.
+.........
+ENDMAP
